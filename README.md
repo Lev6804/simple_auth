@@ -1,5 +1,3 @@
-"# simple_auth" 
-
 # SIMPLE AUTH
 
 ## 🧩 Description
