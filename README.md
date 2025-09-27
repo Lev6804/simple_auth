@@ -24,7 +24,7 @@ npm install cookie-parser
 ## 🧪 Test with Postman
 
 ### 🔹 Test Basic Auth
-**Endpoint:** `GET http://localhost:3000/profile`
+**Endpoint:** `post http://localhost:3000/`
 
 **Authorization type:** Basic Auth  
 - Username: `admin`  
