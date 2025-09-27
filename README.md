@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 "# simple_auth" 
+=======
+>>>>>>> 09d0137 (Add public/results folder with test images)
 # SIMPLE AUTH
 
 ## 🧩 Description
