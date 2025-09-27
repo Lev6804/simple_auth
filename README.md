@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 "# simple_auth" 
-=======
+
 >>>>>>> 09d0137 (Add public/results folder with test images)
 # SIMPLE AUTH
 
@@ -15,6 +14,12 @@ npm install
 node basic_auth.js
 # hoặc
 node cookie_auth.js
+# Để chạy ta cần tải đầy đủ các thư viện để chạy
+
+# Thư viện dùng để kết nối với mongodb
+npm install mongoose
+# Thư viện dùng để lưu trữ cookie
+npm install cookie-parser
 ```
 
 ---
