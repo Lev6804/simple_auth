@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-"# simple_auth" 
-=======
->>>>>>> 09d0137 (Add public/results folder with test images)
 # SIMPLE AUTH
 
 ## 🧩 Description
@@ -15,6 +11,12 @@ npm install
 node basic_auth.js
 # hoặc
 node cookie_auth.js
+# Để chạy ta cần tải đầy đủ các thư viện để chạy
+
+# Thư viện dùng để kết nối với mongodb
+npm install mongoose
+# Thư viện dùng để lưu trữ cookie
+npm install cookie-parser
 ```
 
 ---
@@ -22,7 +24,7 @@ node cookie_auth.js
 ## 🧪 Test with Postman
 
 ### 🔹 Test Basic Auth
-**Endpoint:** `GET http://localhost:3000/profile`
+**Endpoint:** `post http://localhost:3000/`
 
 **Authorization type:** Basic Auth  
 - Username: `admin`  
@@ -37,12 +39,18 @@ node cookie_auth.js
 **Endpoint:**  
 1. `POST http://localhost:3000/login`  
 2. Kiểm tra cookie trong Postman → Cookies  
-3. `GET http://localhost:3000/profile`
 
-📸 *Kết quả test:*  
+📸 *Tạo nơi chứa cookie:*  
+![Cookie Auth Result](public/results/cookie_respond.png)
+
+📸 *Kết quả test trong postman:*  
 ![Cookie Auth Result](public/results/cookie_auth.png)
 
+📸 *Kết quả test trong mongodb:*  
+![Cookie Auth Result](public/results/cookie_mongodb.png)
+
 ---
+
 
 ## 📘 Author
 **22670361 - Võ Thị Cẩm Tú**
