@@ -47,7 +47,7 @@ npm install cookie-parser
 ![Cookie Auth Result](public/results/cookie_auth.png)
 
 📸 *Kết quả test trong mongodb:*  
-![Cookie Auth Result](public/results/cookie_mongodb.png)
+![Cookie Auth Result](public/results/mongo_auth.png)
 
 ---
 
